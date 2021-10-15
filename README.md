@@ -4,7 +4,7 @@ This library provides core functionality for C applications written by nap.softw
 
 It internally relies on `nap_hal0` to make it so that programs can be run on different platforms (at the moment this is `linux` and `arduino`).
 
-## API
+## ⚡ API
 
 ### `const char *nap_version(void)`
 
