@@ -21,7 +21,7 @@ void nap_internal__print(
 }
 
 const char *nap_version(void) {
-	return "0.0.1";
+	return "0.0.2";
 }
 
 void nap_init(void) {

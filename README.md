@@ -1,4 +1,4 @@
-# napc_core@0.0.1
+# napc_core@0.0.2
 
 This library provides core functionality for C applications written by nap.software.
 
