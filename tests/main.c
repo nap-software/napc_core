@@ -15,5 +15,10 @@ int main() {
 	NAP_DEBUG("debug");
 	NAP_TRACE("trace %d", 10);
 	NAP_ERROR("bla");
+
+	nap_delay(500);
+
+	nap_printf("uptime is %lu", nap_uptime());
+
 	nap_panic("abcdef %d", 10);
 }

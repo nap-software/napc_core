@@ -27,6 +27,18 @@ Terminates the program. Supports `printf()` like string format.
 
 ---
 
+### `void nap_delay(unsigned int amount)`
+
+Suspends the program execution for `amount` milliseconds.
+
+---
+
+### `unsigned long nap_uptime(void)`
+
+Returns the program's uptime in milliseconds.
+
+---
+
 ### `NAP_ERROR(fmt, ...)`
 
 Prints an error message to the console.

@@ -10,6 +10,9 @@
 	const char *nap_version(void);
 	void nap_init(void);
 
+	void nap_delay(unsigned int amount);
+	unsigned long nap_uptime(void);
+
 	void nap_panic(const char *fmt, ...) _NAP_PRINTFLIKE(1, 2);
 
 	// Debugging

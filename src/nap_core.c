@@ -32,6 +32,14 @@ void nap_init(void) {
 	);
 }
 
+void nap_delay(unsigned int amount) {
+	nap_hal0__delay(amount);
+}
+
+unsigned long nap_uptime(void) {
+	return nap_hal0__time();
+}
+
 void *nap_safe_malloc(size_t size) {
 	void *mem = malloc(size);
 
